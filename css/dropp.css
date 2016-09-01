@@ -1,0 +1,410 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url('file:F:projects/dropp_anotherboot/fonts/BebasNeueBold.ttf') format('truetype');
+}
+
+/*Global----------------------------*/
+body {
+    position: relative;
+}
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    padding: 30px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.main-text {
+    font-family: 'Arial';
+    font-size: 13pt;
+}
+
+.main-font {
+    font-family: "BebasNeue";
+}
+
+.m-font {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.top-border {
+    border-top: 1px solid #828282;
+}
+/*Global end------------------------*/
+
+/*Navbar----------------------------*/
+.navbar-brand {
+    font-size: 45pt;
+}
+
+a.logo {                 /*------TUTA----------*/
+    display: block;
+    padding-top: 45px;
+}
+
+.navbar-default {     /*-------------ГДЕ ТО ТУТА-----------------*/
+/*    padding: 30px 0;*/
+    background-color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #474444;
+}
+.navbar-default .navbar-brand:hover {
+    color: #474444;
+}
+
+ul.nav li {
+    font-size: 13pt;
+    display: inline-block;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #565656;
+    padding: 45px 15px;
+    display: block;
+}
+.navbar .navbar-nav > li > a:hover {
+    color: #fd5433;
+}
+
+.navbar .navbar-nav > li > a.active {
+    height: 100%;
+    color: white;
+    background-color: #fd5433;    
+}
+
+/*Navbar end------------------------*/
+
+/*Header----------------------------*/
+.intro {
+    text-align: center;
+    padding-top: 16%;
+    padding-bottom: 22%;
+    background-image: url(../img/head_bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    max-height: 800px;
+}
+
+.intro-title {
+    font-size: 120px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    line-height: 100%;
+    color: white;
+    text-shadow: 0 1px 2px black;
+}
+
+.intro .btn {
+    font-size: 30px;
+    width: 280px;
+    height; 60px;
+    padding: 8px 0;
+    color: white;
+    background-color: #fd5433;
+    box-shadow: inset 0 9px 6px -9px white,
+                      0 9px 6px -9px black;
+    text-shadow: 0 1px 1px black;
+}
+/*Header end------------------------*/
+
+/*Services--------------------------*/
+.services-content {
+    margin: 60px 0;
+}
+
+.services-content .section-title {
+    border-bottom: none;
+}
+
+.brand-icon {
+    width: auto;
+    height: 170px;
+    background-image: url(../img/branding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand-icon:hover {
+    background-image: url(../img/branding_hov.png);
+}
+
+.web-icon {
+    width: auto;
+    height: 170px;
+    background-image: url(../img/webdesign.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.web-icon:hover {
+    background-image: url(../img/webdesign_hov.png);
+}
+
+.marketing-icon {
+    width: auto;
+    height: 170px;
+    background-image: url(../img/marketing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marketing-icon:hover {
+    background-image: url(../img/marketing_hov.png);
+}
+
+.services-content {
+    text-align: center;
+}
+/*Services end----------------------*/
+
+/*Portfolio-------------------------*/
+.portfolio-wrap {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.portfolio-scroll {
+    box-sizing: border-box;
+    width: 1752px;
+    height: 500px;
+    background-color: mediumvioletred;
+}
+
+.portfolio-column {
+    width: 292px;
+    height: 500px;
+    float: left;
+}
+
+.portfolio-column-top,
+.portfolio-column-bottom {
+    display: block;
+    width: 292px;
+    height: 250px;
+    background-color: cadetblue;    
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+
+/*Portfolio end---------------------*/
+
+/*About us--------------------------*/
+.member1, .member2, .member3, .member4 {
+    margin: 60px auto;
+    width: 220px;
+    height: 220px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.member1 {
+    background-image: url(../img/about1.jpg);
+}
+
+.member2 {
+    background-image: url(../img/about2.jpg);
+}
+
+.member3 {
+    background-image: url(../img/about3.jpg);
+}
+
+.member4 {
+    background-image: url(../img/about4.jpg);
+}
+
+.about-info {
+    min-height: 300px;
+    padding: 30px 0 40px 0;
+    background-color: #fd5433; 
+    color: white;
+}
+
+.about-info-titles {
+    margin-bottom: 40px;
+}
+
+.about-skills {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.progbar-wrap {
+    position: relative;
+    width: 55%;
+    height: 16px;
+    background-color: transparent;
+    margin-top: 2px;
+    margin-right: 47px;
+    float: right;
+}
+.progbar-wrap:after {
+    position: absolute;
+    right: -48px;
+    top: -3px;
+    content: "100%";
+}
+
+.progbar-inner {
+    height: 100%;
+    background-color: white;
+}
+/*About end-------------------------*/
+
+/*Latest posts-----------------------------*/
+.posts-wrap {
+    padding-top: 100px;
+}
+
+.post-wrap {
+    max-height: 200px;
+    margin-bottom: 90px;
+}
+
+.post-title {
+    margin: 0px;
+    font-size: 24px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.post-date {
+    position: relative;
+    font-size: 14px;
+    padding: 10px 0 50px 0;
+}
+.post-date:after {
+    position: absolute;
+    bottom: +35px;
+    display: block;
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #fd5433; 
+}
+
+.post1-img, .post2-img,
+.post3-img, .post4-img {
+    height: 200px;
+    background-size: 270px 100%;
+    background-repeat: no-repeat;
+}
+
+.post1-img {
+    background-image: url(../img/post1a.jpg);
+}
+
+.post2-img {
+    background-image: url(../img/post2.jpg);
+}
+
+.post3-img {
+    background-image: url(../img/post3.png);
+}
+
+.post4-img {
+    background-image: url(../img/post4.jpg);
+}
+
+.post1-txt, .post2-txt,
+.post3-txt, .post4-txt {
+    height: 200px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+/*Latest posts end-------------------------*/
+
+
+/*Contact Us-------------------------------*/
+.contact-bg {
+    position: relative;
+    min-height: 600px;  /*560px*/
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-bg:after {
+    position: absolute;
+    width: 100%;
+    bottom: 16px;
+    border-top: solid 1px white;
+    padding-top: 15px;
+    content: "© 2014 | Original Grafixity Theme | Powered by WordPress";
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.contact-username-field, .contact-usermail-field,
+.contact-usermessage-field, .contact-sendbtn {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.contact-username-field, .contact-usermail-field,
+.contact-usermessage-field {
+    padding: 18px;
+    color: #fd5433;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+.contact-usermessage-field {
+    height: 230px;
+}
+
+.contact-username-field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fd5433;
+}
+
+.contact-usermail-field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fd5433;
+}
+
+.contact-usermessage-field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fd5433;
+}
+
+.contact-sendbtn {
+    color: white;
+    background-color: #fd5433;
+    padding: 15.5px 0;
+    font-size: 25px;
+    border: none;
+    box-shadow: inset 0px 9px 5px -9px white,
+                      0px 9px 3px -8px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Us end---------------------------*/
