@@ -1,6 +1,6 @@
 @font-face {
     font-family: "BebasNeue";
-    src: url('file:F:projects/dropp_anotherboot/fonts/BebasNeueBold.ttf') format('truetype');
+    src: url('../fonts/BebasNeueBold.ttf') format('truetype');
 }
 
 /*Global----------------------------*/
